@@ -22,6 +22,14 @@ img {
   max-width: 100%;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+}
+
 /***************************
 HEADING
 ***************************/
@@ -90,7 +98,7 @@ footer {
   text-align: center;
   clear: both; 
   padding-top: 50px;
-  color: #ccc;
+  color: #000077;
 }
 
 .social-icon {
@@ -114,14 +122,14 @@ PAGE: PORTFOLIO
   width: 45%;
   margin: 2.5%;
   background-color: #f5f5f5;
-  color: #bdc3c7;
+  color: #000077;
 }
 
 #gallery li a p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #bdc3c7;
+  color: #000077;
 }
 
 /***************************
@@ -173,37 +181,36 @@ COLORS
 
 /* site body */
 body {
-  background-color: #fff;
-  color: #999;
+  background-color: rgba(0,0,87,0.2);
+  color: #000077;
 }
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #000077;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #000057;
 }
 
 /* logo text */
 h1, h2 {
-  color: #fff;
+  color: #ffed8d;
 }
 
 a {
-  color: #6ab47b;
+  color: #000077;
 }
 
 /* nav link */
 nav a, nav a:visited {
-  color: #fff;
+  color: #ffed8d;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #ffc80e;
 }
 
