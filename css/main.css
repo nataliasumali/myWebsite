@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Josefin+Slab:400,700,400italic,700italic|Fredoka+One|Raleway:400,700|Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Quicksand|Josefin+Sans|Fredoka+One);
 
 /***************************
 GENERAL
 ***************************/
 
 body {
-  font-family: 'Bitter', serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #wrapper {
@@ -18,16 +18,16 @@ a {
   text-decoration: none;
 }
 
+.portfolio {
+  border: 1px solid #000;
+}
+
 img {
   max-width: 100%;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 70px;
-  width: 100%;
+p {
+  line-height: 150%;
 }
 
 /***************************
@@ -47,7 +47,7 @@ header {
 }
 
 h1 {
-  font-family: 'Bitter', serif;
+  font-family: 'Fredoka One', cursive;
   margin: 15px 0;
   font-size: 1.75em;
   font-weight: normal;
@@ -98,7 +98,7 @@ footer {
   text-align: center;
   clear: both; 
   padding-top: 50px;
-  color: #000077;
+  color: #000;
 }
 
 .social-icon {
@@ -120,16 +120,16 @@ PAGE: PORTFOLIO
 #gallery li {
   float: left;
   width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #000077;
+  margin: 2%;
+  background-color: #000;
+  color: #000;
 }
 
 #gallery li a p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #000077;
+  color: #ffc80e
 }
 
 /***************************
@@ -181,36 +181,37 @@ COLORS
 
 /* site body */
 body {
-  background-color: rgba(0,0,87,0.2);
-  color: #000077;
+  background-color: #fff;
+  color: #000;
 }
 
 /* green header */
 header {
-  background: #000077;
+  background: #fff;
 }
 
 /* nav background on mobile */
 nav {
-  background: #000057;
+  background: #fff;
 }
 
 /* logo text */
 h1, h2 {
-  color: #ffed8d;
+  color: #000;
 }
 
 a {
-  color: #000077;
+  color: #000;
 }
 
 /* nav link */
 nav a, nav a:visited {
-  color: #ffed8d;
+  color: #000;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
+  background-color: #000;
   color: #ffc80e;
 }
 
